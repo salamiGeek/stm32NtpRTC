@@ -166,8 +166,9 @@ void SetTimeInit(ntpDate rtc_p)
 	}
 	
 	//--- 星期处理 -------------
-	week = rtc_p.week - 1;
-	if(week == 0) week = 7;
+	if(rtc_p.week == 0) week = 7;
+	else week = rtc_p.week - 1;
+	
 	
 	sDate.WeekDay = week;
 	sDate.Month = rtc_p.month;

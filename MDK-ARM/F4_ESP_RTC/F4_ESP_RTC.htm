@@ -3,7 +3,7 @@
 <title>Static Call Graph - [F4_ESP_RTC\F4_ESP_RTC.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image F4_ESP_RTC\F4_ESP_RTC.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sat May 11 23:44:37 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sun May 12 01:38:18 2019
 <BR><P>
 <H3>Maximum Stack Usage =        328 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1282,7 +1282,7 @@ Global Symbols
 <P><STRONG><a name="[1b]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.SVC_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[110]"></a>SetTimeInit</STRONG> (Thumb, 126 bytes, Stack size 48 bytes, rtc.o(i.SetTimeInit))
+<P><STRONG><a name="[110]"></a>SetTimeInit</STRONG> (Thumb, 128 bytes, Stack size 48 bytes, rtc.o(i.SetTimeInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = SetTimeInit &rArr; HAL_RTC_SetTime &rArr; RTC_EnterInitMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetTime
@@ -2001,8 +2001,8 @@ Global Symbols
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_RTC
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Transmit_HS
 <LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
