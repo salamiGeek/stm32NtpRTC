@@ -38,6 +38,7 @@
 "f4_esp_rtc\usbd_ioreq.o"
 "f4_esp_rtc\usbd_cdc.o"
 "f4_esp_rtc\date.o"
+"f4_esp_rtc\beep.o"
 --library_type=microlib --strict --scatter "F4_ESP_RTC\F4_ESP_RTC.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
